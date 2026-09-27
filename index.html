@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="./assets/logo.PNG">
+    <link rel="stylesheet" href="./style.css">
+    <title>tic tac toe</title>
+</head>
+<body>
+    <div class="game-container">
+
+        <h1>💗 TIC TAC TOE GAME </h1>
+    
+        <p class="subtitle">
+            A tiny battle 🎀
+        </p>
+    
+        <div class="turn" id="turn">
+            Heart's turn 💗
+        </div>
+    
+    
+        <!-- GAME BOARD -->
+    
+        <div class="board">
+    
+            <button class="cell" data-index="0"></button>
+            <button class="cell" data-index="1"></button>
+            <button class="cell" data-index="2"></button>
+    
+            <button class="cell" data-index="3"></button>
+            <button class="cell" data-index="4"></button>
+            <button class="cell" data-index="5"></button>
+    
+            <button class="cell" data-index="6"></button>
+            <button class="cell" data-index="7"></button>
+            <button class="cell" data-index="8"></button>
+    
+        </div>
+    
+    
+        <!-- MAIN RESTART BUTTON -->
+    
+        <button class="restart" id="restart">
+            Play Again 🎀
+        </button>
+    
+    </div>
+    
+    
+    
+    <!-- WINNER POPUP -->
+    
+    <div class="popup" id="popup">
+    
+        <div class="popup-box">
+    
+            <!-- CLOSE -->
+    
+            <button class="close" id="close" type="button">
+                &times;
+            </button>
+    
+    
+            <h2 id="winnerTitle">
+                Heart Wins! 💗
+            </h2>
+    
+    
+            <!-- GIFT -->
+    
+            <div class="gift-area">
+    
+                <img
+                    src="./assets/box.png"
+                    alt="Cute Gift"
+                    class="gift"
+                >
+    
+            </div>
+    
+    
+            <p id="winnerMessage">
+                Yayyy! The little heart won! 🎀
+            </p>
+    
+        </div>
+    
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
